@@ -1,9 +1,69 @@
-img {
-    width:200px;
-}
+/* STYLE SECTIONING TAGS */
 body {
-    text-align:center;
-    font-family:'Times New Roman', Times, serif;
-    background:rgb(200, 231, 222);
-    color:rgb(61, 2, 19)
+  background-color: #e1d2f4;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+div:hover {
+  background-color:#efe9f7;
+  border-color:#2f0c3c;
+  border-style: solid;
+  border-width: 1px;
+}
+
+div {
+  width: 215px;
+  padding: 10px;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: #410620;
+  font-family: Arial, sans-serif;
+  letter-spacing: 0.2ch;
+  text-align: center;
+  background-color: #efe9f7;
+  border: 3px solid #410620;
+  padding: 10px;
+}
+
+h4 {
+  color: #4d0f00;
+  margin-left:150px;
+}
+
+p {
+  color: #4d0f00;
+  margin:10px;
+  margin-top:0px;
+}
+
+/* STYLE IMAGES */
+
+img {
+  width:200px;
+  height:200px;
+  margin: 10px;
+  margin-bottom:0px;
+}
+
+
+/* STYLE NAV BAR */
+
+ul {
+  list-style-type: none;
+  background-color: #bad0f2;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+li {
+  display: inline;
+  list-style-type: none;
 }
